@@ -5,6 +5,9 @@ from .database import engine
 from .routers import posts, users, auth, vote
 from fastapi.middleware.cors import CORSMiddleware
 
+# To deploy on heroku: https://www.youtube.com/watch?v=0sOvCWFmrtA&t=41679s 
+# To deploy on a ubuntuVM: https://www.youtube.com/watch?v=0sOvCWFmrtA&t=43504s 
+
 # Before starting the api and server, make sure all dependencies are present via the command "pip install -r requirements.txt"
 
 # you can choose to do this in a virtual environment via the command "python3 -m venv" in the path that you want to start the virtual environment in.
